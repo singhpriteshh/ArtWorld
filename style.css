@@ -461,6 +461,7 @@ section{
 .categories .box-container .box img{
     height: 200px;
     width: 200px;
+    padding: 2rem;
 }
 
 .categories .box-container .box:hover{
