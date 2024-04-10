@@ -354,6 +354,7 @@ section{
     outline-offset: -1rem;
     text-align: center;
     box-shadow: var(--box-shadow);
+    border-radius: .5rem;
 }
 
 .features .box-container .box img{
@@ -456,6 +457,7 @@ section{
     outline-offset: -1rem;
     text-align: center;
     box-shadow: var(--box-shadow);
+    border-radius: .5rem;
 }
 
 .categories .box-container .box img{
