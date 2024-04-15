@@ -78,16 +78,72 @@ body {
 }
 
 .detail .price{
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: block;
     margin: 0 0 20px;
 }
 
-.details .size{
-    font-size: 1.5rem;
-
+.detail .size{
+    font-size: 1rem;
+    margin: 0 0 20px;
 }
 
+.detail .size .btn{
+    margin-top: 3px;
+}
+
+.detail .power{
+    margin: 0 0 20px;
+}
+
+.detail .power .btn{
+    margin-top: 3px;
+}
+
+.detail .quantity{
+    margin: 0 0 20px;
+}
+
+.detail .quantity .btn{
+    margin-top: 3px;
+}
+
+.detail .dis{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.detail .dis .description{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+
+.detail .dis .description div{
+    display: flex;
+    align-items: center;
+}
+
+.detail .dis .shipping{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 1rem;
+}
+
+.detail .dis .shipping div{
+    display: flex;
+    align-items: center;
+}
 
 
 
