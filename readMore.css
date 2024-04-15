@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+    --green: orangered;
+    --black: #130f40;
+    --light-color: #666;
+
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0.1);
+    --outline: .1rem solid rgba(0, 0, 0.1);
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+
+}
+
+body {
+    background: #eee;
+}
+
+
+/* details section */
+
+.container{
+    display: flex;
+    padding-left: 12rem;
+    gap: 2rem;
+    /* position: absolute;
+    left: 20%; */
+    height: 1296px;
+    width: 1748px;
+
+}
+
+.container .images{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    height: 80rem;
+    width: 80rem;
+
+}
+
+
+.container .images img{
+    height: 80rem;
+    width: 80rem;
+    padding: 1.5rem;
+}
+
+.detail{
+    overflow: hidden;
+}
+
+.detail .title{
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+.detail .price{
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 0 20px;
+}
+
+.details .size{
+    font-size: 1.5rem;
+
+}
+
+
+
+
