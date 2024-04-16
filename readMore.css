@@ -115,14 +115,14 @@ body {
     margin-top: 3px;
 }
 
-.detail .dis{
+.detail .box{
     display: flex;
     flex-direction: column;
 }
 
 
 
-.detail .dis .description{
+.detail .box .description{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid gray;
@@ -132,21 +132,28 @@ body {
     margin-top: 30px;
 }
 
-.detail .dis .description:hover{
+.detail .box .description:hover{
     cursor: pointer;
 }
 
 
-.detail .dis .description div{
+.detail .box .description div{
     display: flex;
     align-items: center;
 }
 
-.detail .dis .description div h2{
+.detail .box .description div h2{
     padding-left: 1.5rem;
 }
 
-.detail .dis .deli{
+.detail .box .description .ans p{
+    padding: 30px;
+    font-size: 15px;
+    height: 0;
+    overflow: hidden;
+}
+
+.detail .box .deli{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
@@ -154,16 +161,16 @@ body {
     padding: 1rem;
 }
 
-.detail .dis .deli:hover{
+.detail .box .deli:hover{
     cursor: pointer;
 }
 
-.detail .dis .deli div{
+.detail .box .deli div{
     display: flex;
     align-items: center;
 }
 
-.detail .dis .deli div h2{
+.detail .box .deli div h2{
     padding-left: 1rem;
 }
 

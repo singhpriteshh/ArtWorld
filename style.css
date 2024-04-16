@@ -5,7 +5,7 @@
     --black: #130f40;
     --light-color: #666;
 
-    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0.1);
+    --box-shadow: 0 .5rem 1.5rem rgb(118, 117, 117);
     --outline: .1rem solid rgba(0, 0, 0.1);
 }
 
@@ -19,6 +19,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
+    
 }
 
 html {
