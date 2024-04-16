@@ -41,10 +41,10 @@ body {
     display: flex;
     padding-left: 12rem;
     gap: 2rem;
-    /* position: absolute;
-    left: 20%; */
     height: 1296px;
     width: 1748px;
+    position: relative;
+    left: 10%;
 
 }
 
@@ -55,15 +55,15 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    height: 80rem;
-    width: 80rem;
+    height: 600px;
+    width: 562px;
 
 }
 
 
 .container .images img{
-    height: 80rem;
-    width: 80rem;
+    height: 562px;
+    width: 562px;
     padding: 1.5rem;
 }
 
@@ -72,15 +72,20 @@ body {
 }
 
 .detail .title{
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: left;
     margin: 0 0 20px;
 }
 
 .detail .price{
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: block;
     margin: 0 0 20px;
+}
+
+.detail .price span{
+    padding-left: 1rem;
+    text-decoration: line-through;
 }
 
 .detail .size{
@@ -125,24 +130,39 @@ body {
     margin-top: 30px;
 }
 
+.detail .dis .description:hover{
+    cursor: pointer;
+}
+
 
 .detail .dis .description div{
     display: flex;
     align-items: center;
 }
 
-.detail .dis .shipping{
+.detail .dis .description div h2{
+    padding-left: 1.5rem;
+}
+
+.detail .dis .deli{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     align-items: center;
     padding: 1rem;
 }
 
-.detail .dis .shipping div{
+.detail .dis .deli:hover{
+    cursor: pointer;
+}
+
+.detail .dis .deli div{
     display: flex;
     align-items: center;
+}
+
+.detail .dis .deli div h2{
+    padding-left: 1rem;
 }
 
 
