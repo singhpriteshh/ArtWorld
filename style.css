@@ -495,9 +495,7 @@ section {
 /* feedback section */
 
 .feedback-section {
-    /* border: 2px solid black; */
     padding: 3rem;
-
 }
 
 
@@ -689,6 +687,7 @@ h1 span {
 
     .feedback-section .feedback{
         left: 25%;
+        width: 40rem;
     }
 }
 
@@ -705,8 +704,8 @@ h1 span {
 
     .header .navbar {
         position: absolute;
-        top: 110%;
-        right: -110%;
+        top: -450%;
+        right: 110%;
         width: 30rem;
         box-shadow: var(--box-shadow);
         border-radius: .5rem;
@@ -715,6 +714,7 @@ h1 span {
 
     .header .navbar.active {
         right: 2rem;
+        top: 110%;
         transition: .4s linear;
     }
 
@@ -732,6 +732,7 @@ h1 span {
 
     .feedback-section .feedback{
         left: 12%;
+        width: 30rem;
     }
 
     .footer {
@@ -755,7 +756,8 @@ h1 span {
 
     .feedback-section .feedback{
         left: 0;
-        width: 48rem;
+        width: 20rem;
+
     }
 
     .footer {
