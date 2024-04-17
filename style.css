@@ -116,9 +116,10 @@ body {
 }
 
 .header .search-form {
+    display: none;
     position: absolute;
-    top: 110%;
-    right: -110%;
+    top: -110%;
+    /* right: -110%; */
     width: 50rem;
     height: 5rem;
     background: white;
@@ -130,7 +131,9 @@ body {
 }
 
 .header .search-form.active {
+    display: block;
     right: 2rem;
+    top: 110%;
     transition: .4s linear;
 }
 
@@ -176,8 +179,8 @@ body {
     /* height: 32rem; */
     width: 30rem;
     position: absolute;
-    top: 110%;
-    right: -110%;
+    top: -450%;
+    /* right: -110%; */
     padding: 1rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -186,6 +189,7 @@ body {
 
 .header .shopping-cart.active {
     right: 2rem;
+    top: 110%;
     transition: .4s linear;
 }
 
@@ -248,8 +252,8 @@ body {
 .login-form {
     width: 32rem;
     position: absolute;
-    top: 110%;
-    right: -110%;
+    top: -350%;
+    /* right: -110%; */
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border-radius: .5rem;
@@ -259,6 +263,7 @@ body {
 
 .login-form.active {
     right: 2rem;
+    top: 110%;
     transition: .4s linear;
 }
 
