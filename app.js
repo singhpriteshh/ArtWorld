@@ -1,12 +1,11 @@
 let searchForm = document.querySelector('.search-form');
-
-
 document.querySelector('#search-btn').onclick = () => {
     searchForm.classList.toggle('active');
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
     navBar.classList.remove('active');
 };
+
 
 let shoppingCart = document.querySelector('.shopping-cart');
 document.querySelector('#cart-btn').onclick = () => {
@@ -32,6 +31,11 @@ document.querySelector('#menu-btn').onclick = () =>{
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
     navBar.classList.toggle('active');
+}
+
+let ans = document.querySelector('.ans');
+document.querySelector('#icon').onclick = () =>{
+  ans.classList.toggle('active');
 }
 
 
