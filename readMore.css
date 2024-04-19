@@ -313,7 +313,6 @@ body {
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     scrollbar-width: none;
     height: 630px;
@@ -437,6 +436,32 @@ body {
 
 .detail .box .deli div h2{
     padding-left: 1rem;
+}
+
+
+
+@media screen and (max-width: 991px){
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .container .images{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        height: 515px;
+        width: 281;
+        margin-right: 2rem ;
+    
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-wrap: wrap;
+    }
 }
 
 
