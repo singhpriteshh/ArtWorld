@@ -105,7 +105,6 @@ body {
 }
 
 #menu-btn {
-
     display: none;
 }
 
@@ -459,6 +458,111 @@ body {
 @media screen and (max-width: 768px){
     .container{
         flex-wrap: wrap;
+    }
+}
+
+/* media quaries  */
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 55%;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .header {
+        padding: 2rem;
+        z-index: 100;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .feedback-section .feedback{
+        left: 25%;
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 55%;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .header .search-form {
+        width: 90%;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: -450%;
+        right: 110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+    .header .navbar.active {
+        right: 2rem;
+        top: 110%;
+        transition: .4s linear;
+    }
+
+    #menu-btn {
+        display: inline-block;
+
+    }
+
+    .header .navbar a {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        top: 110%;
+        display: block;
+    }
+
+    .feedback-section .feedback{
+        left: 12%;
+        width: 30rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+        overflow: scroll;
+        overflow-x: hidden;
+
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .feedback-section .feedback{
+        left: 0;
+        width: 20rem;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 
