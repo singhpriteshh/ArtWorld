@@ -298,13 +298,11 @@ body {
 /* details section */
 
 .container{
+    margin: auto;
+    margin-top: 2rem;
     display: flex;
-    padding-left: 12rem;
+    justify-content: center;
     gap: 2rem;
-    /* height: 1296px;
-    width: 1748px; */
-    position: relative;
-    left: 10%;
     margin-bottom: 2rem;
 
 }
