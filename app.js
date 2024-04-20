@@ -33,10 +33,10 @@ document.querySelector('#menu-btn').onclick = () =>{
     navBar.classList.toggle('active');
 }
 
-let ans = document.querySelector('.ans');
-document.querySelector('#icon').onclick = () =>{
-  ans.classList.toggle('active');
-}
+// let ans = document.querySelector('.ans');
+// document.querySelector('#icon').onclick = () =>{
+//   ans.classList.toggle('active');
+// }
 
 
 window.onscroll = () =>{
