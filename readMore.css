@@ -296,7 +296,7 @@ body {
 
 /* details section */
 
-.container{
+.container {
     margin: auto;
     margin-top: 2rem;
     display: flex;
@@ -306,7 +306,7 @@ body {
 
 }
 
-.container .images{
+.container .images {
     display: flex;
     flex-direction: column;
     overflow: scroll;
@@ -314,71 +314,71 @@ body {
     scrollbar-width: none;
     height: 630px;
     width: 562px;
-    margin-bottom: 2rem ;
+    margin-bottom: 2rem;
 
 }
 
 
-.container .images img{
+.container .images img {
     height: 562px;
     width: 562px;
     padding: 1.5rem;
 }
 
-.detail{
+.detail {
     overflow: hidden;
 }
 
-.detail .title{
+.detail .title {
     font-size: 4rem;
     text-align: left;
     margin: 0 0 20px;
 }
 
-.detail .price{
+.detail .price {
     font-size: 1.5rem;
     display: block;
     margin: 0 0 20px;
 }
 
-.detail .price span{
+.detail .price span {
     padding-left: 1rem;
     text-decoration: line-through;
 }
 
-.detail .size{
+.detail .size {
     font-size: 1rem;
     margin: 0 0 20px;
 }
 
-.detail .size .btn{
+.detail .size .btn {
     margin-top: 3px;
 }
 
-.detail .power{
+.detail .power {
     margin: 0 0 20px;
 }
 
-.detail .power .btn{
+.detail .power .btn {
     margin-top: 3px;
 }
 
-.detail .quantity{
+.detail .quantity {
     margin: 0 0 20px;
 }
 
-.detail .quantity .btn{
+.detail .quantity .btn {
     margin-top: 3px;
 }
 
-.detail .box{
+.detail .box {
     display: flex;
     flex-direction: column;
 }
 
 
 
-.detail .box .description{
+.detail .box .description {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid gray;
@@ -388,33 +388,50 @@ body {
     margin-top: 30px;
 }
 
-.detail .box .description:hover{
+.detail .box .description:hover {
     cursor: pointer;
 }
 
 
-.detail .box .description div{
+.detail .box .description div {
+    position: relative;
     display: flex;
     align-items: center;
+    overflow: hidden;
+
 }
 
-.detail .box .description div h2{
+.detail .box .description div h2 {
     padding-left: 1.5rem;
 }
 
+
+.detail .box .description:hover .ans{
+    bottom: 0;
+}
+
 .detail .box .description .ans {
-    width: 280px;
+    width: 350px;
     padding: 30px;
     font-size: 15px;
-    height: 0;
-    display: none;
+    /* height: 0;
+    display: none; */
+    position: absolute;
+    bottom: -100%;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    transition: .3s;
 }
 
-.detail .box .description .ans:active{
+/* .detail .box .description .ans:active {
     display: block;
-}
+} */
 
-.detail .box .deli{
+.detail .box .deli {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
@@ -422,27 +439,27 @@ body {
     padding: 1rem;
 }
 
-.detail .box .deli:hover{
+.detail .box .deli:hover {
     cursor: pointer;
 }
 
-.detail .box .deli div{
+.detail .box .deli div {
     display: flex;
     align-items: center;
 }
 
-.detail .box .deli div h2{
+.detail .box .deli div h2 {
     padding-left: 1rem;
 }
 
 
 
-@media screen and (max-width: 991px){
-    .container{
+@media screen and (max-width: 991px) {
+    .container {
         flex-wrap: wrap;
     }
 
-    .container .images{
+    .container .images {
         display: flex;
         flex-direction: row;
         overflow: scroll;
@@ -450,13 +467,13 @@ body {
         scrollbar-width: none;
         height: 515px;
         width: 281;
-        margin-right: 2rem ;
-    
+        margin-right: 2rem;
+
     }
 }
 
-@media screen and (max-width: 768px){
-    .container{
+@media screen and (max-width: 768px) {
+    .container {
         flex-wrap: wrap;
     }
 }
@@ -484,7 +501,7 @@ body {
         justify-content: space-between;
     }
 
-    .feedback-section .feedback{
+    .feedback-section .feedback {
         left: 25%;
         width: 40rem;
     }
@@ -529,7 +546,7 @@ body {
         display: block;
     }
 
-    .feedback-section .feedback{
+    .feedback-section .feedback {
         left: 12%;
         width: 30rem;
     }
@@ -553,7 +570,7 @@ body {
         font-size: 2.5rem;
     }
 
-    .feedback-section .feedback{
+    .feedback-section .feedback {
         left: 0;
         width: 20rem;
 
@@ -565,6 +582,3 @@ body {
         justify-content: space-between;
     }
 }
-
-
-

@@ -6,6 +6,10 @@ document.querySelector('#search-btn').onclick = () => {
     navBar.classList.remove('active');
 };
 
+// let ans = document.querySelector('.ans');
+// document.querySelector('#icon').onclick = () =>{
+//   ans.classList.toggle('active');
+// };
 
 let shoppingCart = document.querySelector('.shopping-cart');
 document.querySelector('#cart-btn').onclick = () => {
@@ -33,10 +37,7 @@ document.querySelector('#menu-btn').onclick = () =>{
     navBar.classList.toggle('active');
 };
 
-// let ans = document.querySelector('.ans');
-// document.querySelector('#icon').onclick = () =>{
-//   ans.classList.toggle('active');
-// };
+
 
 window.onscroll = () =>{
     searchForm.classList.remove('active');
