@@ -6,10 +6,18 @@ document.querySelector('#search-btn').onclick = () => {
     navBar.classList.remove('active');
 };
 
-// let ans = document.querySelector('.ans');
-// document.querySelector('#icon').onclick = () =>{
-//   ans.classList.toggle('active');
-// };
+document.addEventListener('DOMContentLoaded', function() {
+  const toggles = document.querySelectorAll('.toggle');
+
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', function() {
+      const answer = this.parentNode.nextElementSibling;
+      answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+      this.textContent = (answer.style.display === 'block') ? '-' : '+';
+    });
+  });
+});
+
 
 let shoppingCart = document.querySelector('.shopping-cart');
 document.querySelector('#cart-btn').onclick = () => {
