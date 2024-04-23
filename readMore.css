@@ -406,11 +406,8 @@ body {
 }
 
 
-.detail .box .description:hover .ans{
-    bottom: 0;
-}
-
 .detail .box .description .ans {
+    display: none;
     width: 450px;
     padding: 30px;
     font-size: 15px;
@@ -425,6 +422,10 @@ body {
     align-items: center;
     background: white;
     transition: .3s;
+}
+
+.detail .box .description:hover .ans{
+    bottom: 0;
 }
 
 /* .detail .box .description .ans:active {

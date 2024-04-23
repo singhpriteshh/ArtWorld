@@ -118,6 +118,7 @@ body {
 .header .search-form {
     display: none;
     position: absolute;
+    left: 66%;
     top: -110%;
     right: 110%;
     width: 50rem;
@@ -163,6 +164,7 @@ body {
     height: 20rem;
     width: 15rem;
     position: absolute;
+    left: 66%;
     top: -120%;
     right: 2rem;
     background: white;
@@ -179,6 +181,7 @@ body {
     /* height: 32rem; */
     width: 30rem;
     position: absolute;
+    left: 77%;
     top: -550%;
     right: 110%;
     padding: 1rem;
@@ -252,6 +255,7 @@ body {
 .login-form {
     width: 32rem;
     position: absolute;
+    left: 77%;
     top: -450%;
     right: 110%;
     box-shadow: var(--box-shadow);
