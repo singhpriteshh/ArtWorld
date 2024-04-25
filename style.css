@@ -499,37 +499,34 @@ section {
 /* feedback section */
 
 .feedback-section {
-    padding: 3rem;
+    margin: auto;
 }
 
 
 
 .feedback-section .feedback {
-    position: relative;
-    left: 33%;
+    margin: auto;
     font-size: 2rem;
     display: flex;
-    flex-direction: column;
-    width: 50rem;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* width: 50rem; */
     align-items: center;
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border-radius: .5rem;
     background: #fff;
-    /* text-align: center; */
 }
 
 .feedback input {
-    width: 30rem;
-    border: 2px solid gainsboro;
+    border: 1px solid gainsboro;
     padding: 2rem;
 }
 
 .feedback .btn {
-    width: 20rem;
-}
-
-
+    /* width: 20rem; */
+} 
 
 
 /* footer section */
@@ -671,7 +668,7 @@ h1 span {
     html {
         font-size: 55%;
         overflow: scroll;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .header {
@@ -690,8 +687,9 @@ h1 span {
     }
 
     .feedback-section .feedback{
-        left: 25%;
-        width: 40rem;
+        flex-direction: column;
+        /* left: 25%;
+        width: 40rem; */
     }
 }
 
@@ -735,8 +733,9 @@ h1 span {
     }
 
     .feedback-section .feedback{
-        left: 12%;
-        width: 30rem;
+        flex-direction: column;
+        /* left: 12%;
+        width: 30rem; */
     }
 
     .footer {
@@ -759,8 +758,10 @@ h1 span {
     }
 
     .feedback-section .feedback{
-        left: 0;
-        width: 20rem;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* left: 0; */
+        /* width: 20rem; */
 
     }
 
