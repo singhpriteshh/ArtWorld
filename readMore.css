@@ -313,15 +313,16 @@ body {
     scroll-behavior: smooth;
     scrollbar-width: none;
     height: 630px;
-    width: 562px;
     margin-bottom: 2rem;
 
 }
 
 
 .container .images img {
-    height: 562px;
-    width: 562px;
+    height: 500px;
+    width: 500px;
+    /* height: 562px;
+    width: 562px; */
     padding: 1.5rem;
 }
 
@@ -408,14 +409,9 @@ body {
     }
 
     .container .images {
-        display: flex;
         flex-direction: row;
+        max-width: 450px;
         overflow: scroll;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
-        height: 515px;
-        width: 281;
-        margin-right: 2rem;
 
     }
 }
@@ -423,6 +419,13 @@ body {
 @media screen and (max-width: 768px) {
     .container {
         flex-wrap: wrap;
+    }
+
+    .container .images {
+        flex-direction: row;
+        max-width: 450px;
+        overflow: scroll;
+
     }
 }
 
@@ -528,5 +531,16 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container .images {
+        flex-direction: row;
+        max-width: 450px;
+        overflow: scroll;
+
     }
 }
