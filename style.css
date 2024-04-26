@@ -502,18 +502,14 @@ section {
     margin: auto;
 }
 
-
-
 .feedback-section .feedback {
     margin: auto;
     font-size: 2rem;
     display: flex;
     gap: 1.5rem;
     justify-content: space-evenly;
-    /* flex-direction: column; */
-    /* width: 50rem; */
     align-items: center;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     padding: 2rem;
     border-radius: .5rem;
     background: #fff;
@@ -740,7 +736,7 @@ h1 span {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 468px) {
     html {
         font-size: 50%;
         overflow: scroll;
@@ -753,11 +749,11 @@ h1 span {
     }
 
     .feedback-section .feedback{
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-        /* left: 0; */
-        /* width: 20rem; */
+        display: block;
+    }
 
+    .footer-section.feedback input{
+        display: flex;
     }
 
     .footer {
