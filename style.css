@@ -749,16 +749,33 @@ h1 span {
     }
 
     .feedback-section .feedback{
-        display: block;
-    }
-
-    .footer-section.feedback input{
-        display: flex;
+        
+        height: 400px;
+        width: 300px;
     }
 
     .footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 450px){
+    .feedback-section .feedback{
+        
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .feedback-section{
+        height: 400px;
+        width: 350px;
+    }
+
+    .feedback input{
+        width: 300px;
     }
 }
